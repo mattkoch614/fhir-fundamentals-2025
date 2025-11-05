@@ -1,0 +1,39 @@
+{
+    "resourceType": "Patient",
+    "identifier": [
+        {
+            "value": "arthas.menethil",
+            "system": "http://hospitalxyz.com/patients"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1985-06-14",
+    "name":[
+        {
+            "family": "Menethil",
+            "given": ["Arthas"]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "(03) 555 6789",
+            "use": "home"
+        }
+    ],
+    "address": [
+        {
+            "use": "home",
+            "type": "both",
+            "line": ["3300 Washtenaw"],
+            "city": "Ann Harbor",
+            "district": "Washtenaw",
+            "state": "MI",
+            "postalCode": "48104",
+            "country": "US",
+            "period": {
+                "start": "2020-03-01"
+            }
+        }
+    ]
+}
