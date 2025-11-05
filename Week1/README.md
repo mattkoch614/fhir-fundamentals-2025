@@ -1,0 +1,1 @@
+This exerise was to create a new Patient resource.
