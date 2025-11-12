@@ -118,12 +118,12 @@
 				"resourceType": "Observation",
 				"text": {
 					"status": "generated",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # arthas.menethil [DESCRIPTION_RESP_RATE]:[VALUE_RESP_RATE][UNIT_RESP_RATE] on [MEASURE_DATE] </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # arthas.menethil Respiratory rate:17/min on 2025-11-05T10:30:00Z </div>"
 				},
 				"identifier": [
 					{
 						"system": "http://uwearme.com/measures",
-						"value": "arthas.menethil-[MEASURE_DATE]-[LOINC_CODE_RESP_RATE]"
+						"value": "arthas.menethil-2025-11-05T10:30:00Z-9279-1"
 					}
 				],
 				"status": "final",
@@ -131,18 +131,18 @@
 					"coding": [
 						{
 							"system": "http://loinc.org",
-							"code": "[LOINC_CODE_RESP_RATE]",
-							"display": "[DESCRIPTION_RESP_RATE]"
+							"code": "9279-1",
+							"display": "Respiratory rate"
 						}
 					]
 				},
 				"subject": {
 					"reference": "urn:uuid:0fc374a1-a226-4552-9683-55dd510e67c9"
 				},
-				"effectiveDateTime": "[MEASURE_DATE]",
+				"effectiveDateTime": "2025-11-05T10:30:00Z",
 				"valueQuantity": {
-					"value": [VALUE_RESP_RATE],
-					"unit": "[UNIT_RESP_RATE]"
+					"value": 17,
+					"unit": "/min"
 				},
 				"device": {
 					"reference": "urn:uuid:b405c692-54ea-4d0d-afb1-8f91880a3f24"
@@ -159,12 +159,12 @@
 				"resourceType": "Observation",
 				"text": {
 					"status": "generated",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # arthas.menethil [DESCRIPTION_SYSTOLIC_BP]: [VALUE_SYSTOLIC_BP][UNIT_SYSTOLIC_BP] on [MEASURE_DATE] </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # arthas.menethil Systolic blood pressure: 122mmHg on 2025-11-05T10:30:00Z </div>"
 				},
 				"identifier": [
 					{
 						"system": "http://uwearme.com/measures",
-						"value": "arthas.menethil-[MEASURE_DATE]-[LOINC_CODE_SYSTOLIC_BP]"
+						"value": "arthas.menethil-2025-11-05T10:30:00Z-8480-6"
 					}
 				],
 				"status": "final",
@@ -172,18 +172,18 @@
 					"coding": [
 						{
 							"system": "http://loinc.org",
-							"code": "[LOINC_CODE_SYSTOLIC_BP]",
-							"display": "[DESCRIPTION_SYSTOLIC_BP]"
+							"code": "8480-6",
+							"display": "Systolic blood pressure"
 						}
 					]
 				},
 				"subject": {
 					"reference": "urn:uuid:0fc374a1-a226-4552-9683-55dd510e67c9"
 				},
-				"effectiveDateTime": "[MEASURE_DATE]",
+				"effectiveDateTime": "2025-11-05T10:30:00Z",
 				"valueQuantity": {
-                    "value": [VALUE_SYSTOLIC_BP],
-					"unit": "[UNIT_SYSTOLIC_BP]"
+                    "value": 122,
+					"unit": "mmHg"
 				},
 				"device": {
 					"reference": "urn:uuid:b405c692-54ea-4d0d-afb1-8f91880a3f24"
@@ -200,12 +200,12 @@
 				"resourceType": "Observation",
 				"text": {
 					"status": "generated",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # arthas.menethil [DESCRIPTION_DIASTOLIC_BP]:[VALUE_DIASTOLIC_BP][UNIT_DIASTOLIC_BP] on [MEASURE_DATE] </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # arthas.menethil Diastolic blood pressure:82mmHg on 2025-11-05T10:30:00Z </div>"
 				},
 				"identifier": [
 					{
 						"system": "http://uwearme.com/measures",
-						"value": "arthas.menethil-[MEASURE_DATE]-[LOINC_CODE_DIASTOLIC_BP]"
+						"value": "arthas.menethil-2025-11-05T10:30:00Z-8462-4"
 					}
 				],
 				"status": "final",
@@ -213,18 +213,18 @@
 					"coding": [
 						{
 							"system": "http://loinc.org",
-							"code": "[LOINC_CODE_DIASTOLIC_BP]",
-							"display": "[DESCRIPTION_DIASTOLIC_BP]"
+							"code": "8462-4",
+							"display": "Diastolic blood pressure"
 						}
 					]
 				},
 				"subject": {
 					"reference": "urn:uuid:0fc374a1-a226-4552-9683-55dd510e67c9"
 				},
-				"effectiveDateTime": "[MEASURE_DATE]",
+				"effectiveDateTime": "2025-11-05T10:30:00Z",
 				"valueQuantity": {
-					"value": [VALUE_DIASTOLIC_BP],
-					"unit": "[UNIT_DIASTOLIC_BP]"
+					"value": 82,
+					"unit": "mmHg"
 				},
 				"device": {
 					"reference": "urn:uuid:b405c692-54ea-4d0d-afb1-8f91880a3f24"
@@ -241,12 +241,12 @@
 				"resourceType": "Observation",
 				"text": {
 					"status": "generated",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat #arthas.menethil [DESCRIPTION_HEART_RATE]:                        [VALUE_HEART_RATE][UNIT_HEART_RATE] on [MEASURE_DATE] </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat #arthas.menethil Heart rate:                        74/min on 2025-11-05T10:30:00Z </div>"
 				},
 				"identifier": [
 					{
 						"system": "http://uwearme.com/measures",
-						"value": "arthas.menethil-[MEASURE_DATE]-[LOINC_CODE_HEART_RATE]"
+						"value": "arthas.menethil-2025-11-05T10:30:00Z-8867-4"
 					}
 				],
 				"status": "final",
@@ -254,18 +254,18 @@
 					"coding": [
 						{
 							"system": "http://loinc.org",
-							"code": "[LOINC_CODE_HEART_RATE]",
-							"display": "[DESCRIPTION_HEART_RATE]"
+							"code": "8867-4",
+							"display": "Heart rate"
 						}
 					]
 				},
 				"subject": {
 					"reference": "urn:uuid:0fc374a1-a226-4552-9683-55dd510e67c9"
 				},
-				"effectiveDateTime": "[MEASURE_DATE]",
+				"effectiveDateTime": "2025-11-05T10:30:00Z",
 				"valueQuantity": {
-					"value": [VALUE_HEART_RATE],
-					"unit": "[UNIT_HEART_RATE]"
+					"value": 74,
+					"unit": "/min"
 				},
 				"device": {
 					"reference": "urn:uuid:b405c692-54ea-4d0d-afb1-8f91880a3f24"
@@ -278,3 +278,4 @@
 		}
 	]
 }
+
