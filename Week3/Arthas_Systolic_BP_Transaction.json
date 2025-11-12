@@ -39,30 +39,30 @@
 				"resourceType": "Patient",
 				"text": {
 					"status": "generated",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> [YOUR NAME] Id # [YOUR_PATIENT_IDENTIFIER] </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> Arthas Menethil Id # arthas.menethil </div>"
 				},
 				"identifier": [
 					{
-						"system": "http://mypatientidentifier.com/ids",
-						"value": "[YOUR_PATIENT_IDENTIFIER]"
+						"system": "http://hospitalxyz.com/patients",
+						"value": "arthas.menethil"
 					}
 				],
 				"name": [
 					{
-						"family": "[YOUR LAST]",
+						"family": "Menethil",
 						"given": [
-							"[YOUR FIRST]"
+							"Arthas"
 						]
 					}
 				],
 				"address": [
 					{
 						"line": [
-							"[YOUR ADDRESS]"
+							"77 Icecrown Boulevard"
 						],
-						"city": "[YOUR CITY]",
-						"state": "[YOUR STATE]",
-						"country": "[YOUR COUNTRY]"
+						"city": "Stormwind",
+						"state": "NY",
+						"country": "US"
 					}
 				],
 				"managingOrganization": {
@@ -71,7 +71,7 @@
 			},
 			"request": {
 				"method": "PUT",
-				"url": "Patient?identifier=http://mypatientidentifier.com/ids|[YOUR_PATIENT_IDENTIFIER]"
+				"url": "Patient?identifier=http://hospitalxyz.com/patients|arthas.menethil"
 			}
 		},
 		{
@@ -80,12 +80,12 @@
 				"resourceType": "Device",
 				"text": {
 					"status": "generated",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Device [YOUR_PATIENT_IDENTIFIER]                    </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Device arthas.menethil                    </div>"
 				},
 				"identifier": [
 					{
 						"system": "http://uwearme.com/dev",
-						"value": "[YOUR_PATIENT_IDENTIFIER]"
+						"value": "arthas.menethil"
 					}
 				],
 				"expirationDate": "2020-10-10",
@@ -109,7 +109,7 @@
 			},
 			"request": {
 				"method": "PUT",
-				"url": "Device?identifier=http://uwearme.com/dev|[YOUR_PATIENT_IDENTIFIER]"
+				"url": "Device?identifier=http://uwearme.com/dev|arthas.menethil"
 			}
 		},
 		{
@@ -118,12 +118,12 @@
 				"resourceType": "Observation",
 				"text": {
 					"status": "generated",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # [YOUR_PATIENT_IDENTIFIER] [DESCRIPTION_RESP_RATE]:[VALUE_RESP_RATE][UNIT_RESP_RATE] on [MEASURE_DATE] </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # arthas.menethil [DESCRIPTION_RESP_RATE]:[VALUE_RESP_RATE][UNIT_RESP_RATE] on [MEASURE_DATE] </div>"
 				},
 				"identifier": [
 					{
 						"system": "http://uwearme.com/measures",
-						"value": "[YOUR_PATIENT_IDENTIFIER]-[MEASURE_DATE]-[LOINC_CODE_RESP_RATE]"
+						"value": "arthas.menethil-[MEASURE_DATE]-[LOINC_CODE_RESP_RATE]"
 					}
 				],
 				"status": "final",
@@ -159,12 +159,12 @@
 				"resourceType": "Observation",
 				"text": {
 					"status": "generated",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # [YOUR_PATIENT_IDENTIFIER] [DESCRIPTION_SYSTOLIC_BP]: [VALUE_SYSTOLIC_BP][UNIT_SYSTOLIC_BP] on [MEASURE_DATE] </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # arthas.menethil [DESCRIPTION_SYSTOLIC_BP]: [VALUE_SYSTOLIC_BP][UNIT_SYSTOLIC_BP] on [MEASURE_DATE] </div>"
 				},
 				"identifier": [
 					{
 						"system": "http://uwearme.com/measures",
-						"value": "[YOUR_PATIENT_IDENTIFIER]-[MEASURE_DATE]-[LOINC_CODE_SYSTOLIC_BP]"
+						"value": "arthas.menethil-[MEASURE_DATE]-[LOINC_CODE_SYSTOLIC_BP]"
 					}
 				],
 				"status": "final",
@@ -200,12 +200,12 @@
 				"resourceType": "Observation",
 				"text": {
 					"status": "generated",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # [YOUR_PATIENT_IDENTIFIER] [DESCRIPTION_DIASTOLIC_BP]:[VALUE_DIASTOLIC_BP][UNIT_DIASTOLIC_BP] on [MEASURE_DATE] </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # arthas.menethil [DESCRIPTION_DIASTOLIC_BP]:[VALUE_DIASTOLIC_BP][UNIT_DIASTOLIC_BP] on [MEASURE_DATE] </div>"
 				},
 				"identifier": [
 					{
 						"system": "http://uwearme.com/measures",
-						"value": "[YOUR_PATIENT_IDENTIFIER]-[MEASURE_DATE]-[LOINC_CODE_DIASTOLIC_BP]"
+						"value": "arthas.menethil-[MEASURE_DATE]-[LOINC_CODE_DIASTOLIC_BP]"
 					}
 				],
 				"status": "final",
@@ -241,12 +241,12 @@
 				"resourceType": "Observation",
 				"text": {
 					"status": "generated",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat #[YOUR_PATIENT_IDENTIFIER] [DESCRIPTION_HEART_RATE]:                        [VALUE_HEART_RATE][UNIT_HEART_RATE] on [MEASURE_DATE] </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat #arthas.menethil [DESCRIPTION_HEART_RATE]:                        [VALUE_HEART_RATE][UNIT_HEART_RATE] on [MEASURE_DATE] </div>"
 				},
 				"identifier": [
 					{
 						"system": "http://uwearme.com/measures",
-						"value": "[YOUR_PATIENT_IDENTIFIER]-[MEASURE_DATE]-[LOINC_CODE_HEART_RATE]"
+						"value": "arthas.menethil-[MEASURE_DATE]-[LOINC_CODE_HEART_RATE]"
 					}
 				],
 				"status": "final",
