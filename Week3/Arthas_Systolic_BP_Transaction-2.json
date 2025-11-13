@@ -30,7 +30,7 @@
 			},
 			"request": {
 				"method": "PUT",
-				"url": "Organization?identifier=http://fhirfun2021.org/ids|UWEARME"
+				"url": "Organization/458"
 			}
 		},
 		{
@@ -71,7 +71,7 @@
 			},
 			"request": {
 				"method": "PUT",
-				"url": "Patient?identifier=http://hospitalxyz.com/patients|arthas.menethil"
+				"url": "Patient/108636"
 			}
 		},
 		{
