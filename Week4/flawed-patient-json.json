@@ -1,0 +1,42 @@
+{
+    "resourceType": "Patient",
+    "id": "PatientAlbertGruollian",
+    "meta": {
+      "profile": [
+        "http://minhealth.gov.bk/core/StructureDefinition/BerzerkistanPatient"
+      ]
+    },
+    "extension": [
+      {
+        "url": "http://minhealth.gov.bk/core/StructureDefinition/PPHTaxSituation",
+        "valueCode": "X"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "official",
+        "system": "http://www.berzerkistan.gov/bni",
+        "value": "9000031"
+      },
+      {
+        "use": "usual",
+        "system": "http://www.mypatients.gov/number",
+        "value": "23327758999"
+      }
+    ],
+    "name": [
+      {
+        "family": "Gruollian",
+        "given": [
+          "Albert"
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+341155555555"
+      }
+    ],
+    "birthDate": "1922-06-14"
+  }
